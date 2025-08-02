@@ -1,0 +1,31 @@
+{
+  "name": "girlsbra-top-website",
+  "version": "1.0.0",
+  "description": "GirlsBra Top - Find Your Perfect Bra Fit",
+  "main": "index.html",
+  "scripts": {
+    "build": "node scripts/generate-blog.js",
+    "dev": "python3 -m http.server 8000",
+    "generate-blog": "node scripts/generate-blog.js"
+  },
+  "keywords": [
+    "bra",
+    "size",
+    "calculator",
+    "women",
+    "underwear",
+    "fashion"
+  ],
+  "author": "GirlsBra Top",
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-it": "^13.0.1",
+    "js-yaml": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/girlsbra-top-website.git"
+  },
+  "homepage": "https://girlsbra.top"
+}
+
